@@ -1,0 +1,2 @@
+# biscord
+made of Rust.
