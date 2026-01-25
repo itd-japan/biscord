@@ -1,7 +1,7 @@
 "use client"
 
 import { useChatSockets } from "@/hooks/useChatSockets"
-import SideBar from "./SideBar"
+import ChatSidebar from "./ChatSidebar"
 import ChatHeader from "./ChatHeader"
 import MessageList from "./MessageList"
 import MessageInput from "./MessageInput"
@@ -11,7 +11,7 @@ export default function ChatPage() {
 
   return (
     <div className="h-full flex">
-      <SideBar />
+      <ChatSidebar />
       <div className="w-full">
         <ChatHeader status={status} />
         <MessageList messages={messages} />
